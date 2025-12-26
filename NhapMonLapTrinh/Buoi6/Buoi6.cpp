@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void int main()
 {
 	for (int i = 1; i <= 10; i++) {
 		cout << "Hello:" << i << endl;
@@ -18,5 +18,4 @@ int main()
 		k++;
 	} while (k <= 5);
 }
-
 
