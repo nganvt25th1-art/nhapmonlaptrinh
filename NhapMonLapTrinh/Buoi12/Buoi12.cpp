@@ -18,12 +18,12 @@ int main()
 	//tonggiatriam(a, n);
 	//sapxep(a, n);
 	//output(a, n);
-	int kq = giatriduongdautien(a, n);
-	if (kq == 0) {
-		cout << "Khong co gia tri duong trong mang" << endl;
+	int vt = vitrichandautien(a, n);
+	if (vt == -1) {
+		cout << "Khong co gia tri chan trong mang" << endl;
 	}
 	else {
-		cout << "Gia tri duong dau tien:" << kq << endl;
+		cout << "Vi tri chan dau tien:" << vt << endl;
 	}
 }
 
